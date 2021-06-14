@@ -73,6 +73,7 @@ body {
 .explore__menu__text{
     font-size: 30px;
     text-align: center;
+    padding-bottom: 15px;
 }
 .food__menu__card {
     width: 100%;
@@ -113,6 +114,15 @@ body {
     flex-direction: row-reverse;
     align-items: center;
     justify-content: space-between;
+}
+.explor__menu__lists {
+    display: flex;
+    gap: 8px;
+    margin-top: 25px;
+}
+#pizza__cart {
+    margin-top: -20px;
+    margin-bottom: 30px;
 }
 }
 
