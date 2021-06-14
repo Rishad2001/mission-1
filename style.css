@@ -7,7 +7,7 @@
 body {
     font-family:"Merriweather", sans-serif;
     background-color: #ebf2ff;
-  overflow-x: hidden;
+    overflow-x: hidden;
 }
 
 .container {
@@ -58,6 +58,22 @@ body {
       cursor: pointer;
 }
 
+.hero__text {
+    font-size: 30px;
+    color: #1d3557;
+    margin: 20px 0;
+}
+
+/* menu styles*/
+
+.food__menu__card {
+    width: 100%;
+}
+
+.food__image {
+    width: 100%;
+}
+
 /* media section*/
 @media (min-width: 768px){
  .navbar {
@@ -76,19 +92,19 @@ body {
     flex-direction: row-reverse;
     align-items: center;
     justify-content: space-between;
-    gap: 10px;
 }
 }
 
 @media (min-width: 1020px){
     .container {
-        max-width: 1010px;
+        max-width: 900px;
     }
- .hero__image__container {
-     width: 500px;
-     height: 500px;
+ .hero__text{
+     font-size: 45px;
  }
 }
 @media (min-width: 1400px){
-
+ .container{
+        max-width: 1250px; 
+}
 }
